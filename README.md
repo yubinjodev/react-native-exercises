@@ -6,3 +6,5 @@
 5. OS android : capture qr to acces through mobile
 6. OS iOS : go to link to access through mobile
 7. or press w in terminal to access through web
+
+exercises from : https://www.reactnativeschool.com/12-exercises-to-learn-react-native
