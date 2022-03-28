@@ -1,0 +1,22 @@
+import { NavigationContainer } from "@react-navigation/native";
+import { createStackNavigator } from "@react-navigation/stack";
+
+import Home from "./Home";
+import HelloWorld from "./HelloWorld";
+import CapturingTaps from "./CapturingTaps";
+import CustomComponent from "./CustomComponent/CustomComponent";
+import StateAndProps from "./StateAndProps";
+
+const Stack = createStackNavigator();
+
+export const Nav = () => {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="Home" component={Home} />
+      <Stack.Screen name="Hello World" component={HelloWorld} />
+      <Stack.Screen name="Capturing Taps" component={CapturingTaps} />
+      <Stack.Screen name="Custom Component" component={CustomComponent} />
+      <Stack.Screen name="State and Props" component={StateAndProps} />
+    </Stack.Navigator>
+  );
+};
