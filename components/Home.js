@@ -7,6 +7,7 @@ const Home = ({ navigation }) => {
     "Capturing Taps",
     "Custom Component",
     "State and Props",
+    "Styling",
   ];
 
   return (

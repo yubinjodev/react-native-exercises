@@ -6,6 +6,7 @@ import HelloWorld from "./HelloWorld";
 import CapturingTaps from "./CapturingTaps";
 import CustomComponent from "./CustomComponent/CustomComponent";
 import StateAndProps from "./StateAndProps";
+import Styling from "./Styling";
 
 const Stack = createStackNavigator();
 
@@ -17,6 +18,7 @@ export const Nav = () => {
       <Stack.Screen name="Capturing Taps" component={CapturingTaps} />
       <Stack.Screen name="Custom Component" component={CustomComponent} />
       <Stack.Screen name="State and Props" component={StateAndProps} />
+      <Stack.Screen name="Styling" component={Styling} />
     </Stack.Navigator>
   );
 };
