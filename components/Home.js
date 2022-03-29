@@ -8,7 +8,8 @@ const Home = ({ navigation }) => {
     "Custom Component",
     "State and Props",
     "Styling",
-    "Scrollable Content"
+    "Scrollable Content",
+    "Building a Form"
   ];
 
   return (
