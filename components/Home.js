@@ -10,7 +10,8 @@ const Home = ({ navigation }) => {
     "Styling",
     "Scrollable Content",
     "Building a Form",
-    "Long Lists"
+    "Long Lists",
+    "Working with an API",
   ];
 
   return (
@@ -20,7 +21,10 @@ const Home = ({ navigation }) => {
           onPress={() => navigation.navigate(`${menu}`)}
           key={index}
         >
-          <Text>{menu}</Text>
+          <Text>
+            {index + 1}
+            {menu}
+          </Text>
         </TouchableOpacity>
       ))}
     </View>
