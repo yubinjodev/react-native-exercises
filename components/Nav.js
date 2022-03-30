@@ -9,6 +9,7 @@ import StateAndProps from "./StateAndProps";
 import Styling from "./Styling";
 import ScrollableContent from "./ScrollableContent";
 import BuildForm from "./BuildForm";
+import LongLists from "./LongLists";
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,7 @@ export const Nav = () => {
       <Stack.Screen name="Styling" component={Styling} />
       <Stack.Screen name="Scrollable Content" component={ScrollableContent} />
       <Stack.Screen name="Building a Form" component={BuildForm} />
+      <Stack.Screen name="Long Lists" component={LongLists} />
     </Stack.Navigator>
   );
 };

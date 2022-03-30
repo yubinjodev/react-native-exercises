@@ -9,7 +9,8 @@ const Home = ({ navigation }) => {
     "State and Props",
     "Styling",
     "Scrollable Content",
-    "Building a Form"
+    "Building a Form",
+    "Long Lists"
   ];
 
   return (
