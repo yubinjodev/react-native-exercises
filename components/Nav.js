@@ -11,6 +11,8 @@ import ScrollableContent from "./ScrollableContent";
 import BuildForm from "./BuildForm";
 import LongLists from "./LongLists";
 import WorkingWithAPI from "./WorkingWithAPI";
+import MultipleFiles from "./MultipleFiles";
+import ClassComponents from "./ClassComponents";
 
 const Stack = createStackNavigator();
 
@@ -27,6 +29,8 @@ export const Nav = () => {
       <Stack.Screen name="Building a Form" component={BuildForm} />
       <Stack.Screen name="Long Lists" component={LongLists} />
       <Stack.Screen name="Working with an API" component={WorkingWithAPI} />
+      <Stack.Screen name="Multiple Files" component={MultipleFiles} />
+      <Stack.Screen name="Class Component" component={ClassComponents} />
     </Stack.Navigator>
   );
 };

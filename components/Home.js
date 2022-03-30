@@ -12,6 +12,8 @@ const Home = ({ navigation }) => {
     "Building a Form",
     "Long Lists",
     "Working with an API",
+    "Multiple Files",
+    "Class Component"
   ];
 
   return (
