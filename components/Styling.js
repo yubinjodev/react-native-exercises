@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     top: "50%",
     position: "absolute",
-    transform: "translateY(-50%)",
+    // transform: "translateY(-50%)",
   },
 });
 
